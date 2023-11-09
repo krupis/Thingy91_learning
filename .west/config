@@ -1,0 +1,7 @@
+[manifest]
+path = app_nrf9160
+file = west.yml
+
+[zephyr]
+base = external/zephyr
+

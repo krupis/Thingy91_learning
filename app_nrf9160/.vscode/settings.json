@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "usbd.h": "c",
+        "usb_device.h": "c"
+    },
+    "sonarlint.pathToCompileCommands": "${workspaceFolder}/build\\compile_commands.json"
+}

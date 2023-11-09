@@ -1,0 +1,25 @@
+{
+    "format-version": 0,
+    "time": 1699523614,
+    "files": [
+        {
+            "load_address": 74240,
+            "version_MCUBOOT": "0.0.0+0",
+            "type": "application",
+            "board": "thingy91_nrf52840",
+            "soc": "nRF52840_QIAA",
+            "size": 53816,
+            "file": "app_update.bin",
+            "modtime": 1699523614
+        }
+    ],
+    "name": "app_nrf52840",
+    "firmware": {
+        "zephyr": {
+            "revision": null
+        },
+        "nrf": {
+            "revision": "1fae141fc6713dd331b797fc96c90dc84552242d"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+
+&zephyr_udc0 {
+	cdc_acm_uart0: cdc_acm_uart0 {
+		compatible = "zephyr,cdc-acm-uart";
+	};
+	rtt0: rtt_chan0 {
+		compatible = "segger,rtt-uart";
+		status = "okay";
+	};
+};
+
+/ {
+	chosen {
+		zephyr,console = &rtt0;
+	};
+};

@@ -1,0 +1,6 @@
+menu "nrf (C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf)"
+osource "C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/sysbuild/Kconfig.sysbuild"
+config ZEPHYR_NRF_MODULE
+	bool
+	default y
+endmenu
