@@ -3,5 +3,3 @@
 external
 app_nrf58240/.vscode/
 app_nrf9160/.vscode/
-app_nrf58240/.build/
-app_nrf9160/.build/

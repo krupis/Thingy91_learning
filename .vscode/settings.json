@@ -1,7 +1,0 @@
-{
-    "nrf-connect.applications": [
-        "${workspaceFolder}\\application",
-        "${workspaceFolder}\\Machine_learning"
-    ],
-    "sonarlint.pathToCompileCommands": "${workspaceFolder}/Machine_learning\\build\\compile_commands.json"
-}
