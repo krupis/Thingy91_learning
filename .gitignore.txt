@@ -1,5 +1,5 @@
-.vscode/
-.west/
+.vscode
+.west
 external
 app_nrf58240/.vscode/
 app_nrf9160/.vscode/
