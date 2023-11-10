@@ -1,7 +1,7 @@
 modules:
 - name: nrf
   path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf
-  revision: 1fae141fc6713dd331b797fc96c90dc84552242d
+  revision: 1fae141fc6713dd331b797fc96c90dc84552242d-dirty
 - name: wfa-qt-control-app
   path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/modules/lib/wfa-qt-control-app
   revision: 0e213ab6a421298484a81a9d18f5c31c4b8084a8
@@ -117,9 +117,9 @@ west:
   manifest: C:\Users\petrikas.lu\Desktop\WORK\NRF\Thingy_91\app_nrf9160\west.yml
   projects:
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160
-    revision: null
+    revision: 716fa9cd4234050180b0d95a5cc9ac17ebde6ac0-dirty
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf
-    revision: 1fae141fc6713dd331b797fc96c90dc84552242d
+    revision: 1fae141fc6713dd331b797fc96c90dc84552242d-dirty-off
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr
     revision: 2e2523efe52a7ac89f0567b8798fd857b1e71ae3
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/modules/lib/hostap
@@ -209,9 +209,9 @@ west:
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/modules/lib/zscilib
     revision: 34c3432e81085bb717e4871d21ca419ae0058ec5
 workspace:
-  dirty: false
+  dirty: true
   extra: false
-  'off': false
+  'off': true
 zephyr:
   path: null
-  revision: null
+  revision: 716fa9cd4234050180b0d95a5cc9ac17ebde6ac0-dirty

@@ -1,6 +1,6 @@
 {
     "format-version": 0,
-    "time": 1699523614,
+    "time": 1699599613,
     "files": [
         {
             "load_address": 74240,
@@ -10,16 +10,16 @@
             "soc": "nRF52840_QIAA",
             "size": 53816,
             "file": "app_update.bin",
-            "modtime": 1699523614
+            "modtime": 1699599613
         }
     ],
     "name": "app_nrf52840",
     "firmware": {
         "zephyr": {
-            "revision": null
+            "revision": "716fa9cd4234050180b0d95a5cc9ac17ebde6ac0-dirty"
         },
         "nrf": {
-            "revision": "1fae141fc6713dd331b797fc96c90dc84552242d"
+            "revision": "1fae141fc6713dd331b797fc96c90dc84552242d-dirty"
         }
     }
 }
