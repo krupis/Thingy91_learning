@@ -1,6 +1,6 @@
 {
     "format-version": 0,
-    "time": 1699867098,
+    "time": 1699875127,
     "files": [
         {
             "load_address": 98304,
@@ -8,15 +8,15 @@
             "type": "application",
             "board": "thingy91_nrf9160",
             "soc": "nRF9160_SICA",
-            "size": 287288,
+            "size": 288624,
             "file": "app_update.bin",
-            "modtime": 1699867098
+            "modtime": 1699875127
         }
     ],
     "name": "app_nrf9160",
     "firmware": {
         "zephyr": {
-            "revision": "4097877d93e6d4794665333b7391ff879f285ad0-dirty"
+            "revision": "4f3c921c6812bd7a4b186c98d9b2e2ae2b827b21-dirty"
         },
         "nrf": {
             "revision": "1fae141fc6713dd331b797fc96c90dc84552242d"

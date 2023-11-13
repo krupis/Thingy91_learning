@@ -117,7 +117,7 @@ west:
   manifest: C:\Users\petrikas.lu\Desktop\WORK\NRF\Thingy_91\app_nrf9160\west.yml
   projects:
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160
-    revision: 4097877d93e6d4794665333b7391ff879f285ad0-dirty
+    revision: 4f3c921c6812bd7a4b186c98d9b2e2ae2b827b21-dirty
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf
     revision: 1fae141fc6713dd331b797fc96c90dc84552242d
   - path: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr
@@ -214,4 +214,4 @@ workspace:
   'off': false
 zephyr:
   path: null
-  revision: 4097877d93e6d4794665333b7391ff879f285ad0-dirty
+  revision: 4f3c921c6812bd7a4b186c98d9b2e2ae2b827b21-dirty

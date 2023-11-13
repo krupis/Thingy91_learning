@@ -1,3 +1,3 @@
 osource "c:/users/petrikas.lu/desktop/work/nrf/thingy_91/app_nrf9160/boards/shields/*/Kconfig.defconfig"
-osource "c:/users/petrikas.lu/desktop/work/nrf/thingy_91/app_nrf52840/boards/shields/*/Kconfig.defconfig"
+osource "C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/./boards/shields/*/Kconfig.defconfig"
 osource "C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/boards/shields/*/Kconfig.defconfig"
