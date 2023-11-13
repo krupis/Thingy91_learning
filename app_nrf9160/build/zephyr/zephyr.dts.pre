@@ -1047,5 +1047,11 @@ timer2: timer@11000 {
 };
 # 0 "<command-line>" 2
 # 1 "./boards/thingy91_nrf9160_ns.overlay" 1
+/ {
+    aliases {
+            adxl372 = &adxl372;
+            adxl362 = &adxl362;
+    };
+};
 # 0 "<command-line>" 2
 # 1 "C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/misc/empty_file.c"

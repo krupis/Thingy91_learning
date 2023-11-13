@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/drivers
+# Install script for directory: C:/ncs/v2.5.0/zephyr/drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,61 +39,76 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/disk/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/disk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/misc/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/misc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/pcie/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/pcie/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/usb/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/usb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/usb_c/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/usb_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/clock_control/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/clock_control/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/console/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/hwinfo/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/entropy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/pinctrl/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/serial/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/drivers/timer/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/hwinfo/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/pinctrl/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/serial/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/drivers/timer/cmake_install.cmake")
 endif()
 

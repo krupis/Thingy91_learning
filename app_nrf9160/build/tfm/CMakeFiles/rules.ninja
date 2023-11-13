@@ -52,7 +52,7 @@ rule C_COMPILER__tfm_s_MinSizeRel
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__tfm_s_MinSizeRel
-  command = cmd.exe /C "$PRE_LINK && C:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\arm-zephyr-eabi\bin\arm-zephyr-eabi-gcc.exe $FLAGS -mcpu=cortex-m33+nodsp+nofp $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\arm-zephyr-eabi\bin\arm-zephyr-eabi-gcc.exe $FLAGS -mcpu=cortex-m33+nodsp $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 

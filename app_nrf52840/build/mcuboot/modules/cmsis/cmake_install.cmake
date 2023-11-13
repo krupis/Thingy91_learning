@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/modules/cmsis
+# Install script for directory: C:/ncs/v2.5.0/zephyr/modules/cmsis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/modules/cmsis/cmsis/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/modules/cmsis/cmsis/cmake_install.cmake")
 
 endif()
 

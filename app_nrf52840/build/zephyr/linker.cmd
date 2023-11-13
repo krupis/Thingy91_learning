@@ -2,7 +2,7 @@
 _region_min_align = 32;
 MEMORY
     {
-    FLASH (rx) : ORIGIN = 0x12200, LENGTH = 0x76e00
+    FLASH (rx) : ORIGIN = 0x12200, LENGTH = 0x75e00
     RAM (wx) : ORIGIN = 0x20000000, LENGTH = 0x40000
    
     IDT_LIST (wx) : ORIGIN = 0xFFFFF7FF, LENGTH = 2K
@@ -120,6 +120,7 @@ ztest :
  _ztest_test_rule_list_start = .; KEEP(*(SORT_BY_NAME(._ztest_test_rule.static.*))); _ztest_test_rule_list_end = .;
 } > FLASH
  bt_l2cap_fixed_chan_area : SUBALIGN(4) { _bt_l2cap_fixed_chan_list_start = .; KEEP(*(SORT_BY_NAME(._bt_l2cap_fixed_chan.static.*))); _bt_l2cap_fixed_chan_list_end = .; } > FLASH
+ bt_conn_cb_area : SUBALIGN(4) { _bt_conn_cb_list_start = .; KEEP(*(SORT_BY_NAME(._bt_conn_cb.static.*))); _bt_conn_cb_list_end = .; } > FLASH
  bt_gatt_service_static_area : SUBALIGN(4) { _bt_gatt_service_static_list_start = .; KEEP(*(SORT_BY_NAME(._bt_gatt_service_static.static.*))); _bt_gatt_service_static_list_end = .; } > FLASH
  log_strings_area : SUBALIGN(4) { _log_strings_list_start = .; KEEP(*(SORT_BY_NAME(._log_strings.static.*))); _log_strings_list_end = .; } > FLASH
  log_const_area : SUBALIGN(4) { _log_const_list_start = .; KEEP(*(SORT_BY_NAME(._log_const.static.*))); _log_const_list_end = .; } > FLASH
@@ -130,6 +131,7 @@ ztest :
  {
   KEEP(*(".dbg_thread_info"));
  } > FLASH
+ settings_handler_static_area : SUBALIGN(4) { _settings_handler_static_list_start = .; KEEP(*(SORT_BY_NAME(._settings_handler_static.static.*))); _settings_handler_static_list_end = .; } > FLASH
  symbol_to_keep : ALIGN_WITH_INPUT
  {
   __symbol_to_keep_start = .;
@@ -212,6 +214,7 @@ __ramfunc_load_start = LOADADDR(.ramfunc);
   KEEP(*(".z_devstate.*"));
                 __device_states_end = .;
         } > RAM AT > FLASH
+ pm_device_slots_area : ALIGN_WITH_INPUT SUBALIGN(4) { _pm_device_slots_list_start = .; KEEP(*(SORT_BY_NAME(._pm_device_slots.static.*))); _pm_device_slots_list_end = .; } > RAM AT > FLASH
  log_mpsc_pbuf_area : ALIGN_WITH_INPUT SUBALIGN(4) { _log_mpsc_pbuf_list_start = .; *(SORT_BY_NAME(._log_mpsc_pbuf.static.*)); _log_mpsc_pbuf_list_end = .; } > RAM AT > FLASH
  log_msg_ptr_area : ALIGN_WITH_INPUT SUBALIGN(4) { _log_msg_ptr_list_start = .; KEEP(*(SORT_BY_NAME(._log_msg_ptr.static.*))); _log_msg_ptr_list_end = .; } > RAM AT > FLASH
  log_dynamic_area : ALIGN_WITH_INPUT SUBALIGN(4) { _log_dynamic_list_start = .; KEEP(*(SORT_BY_NAME(._log_dynamic.static.*))); _log_dynamic_list_end = .; } > RAM AT > FLASH
@@ -256,6 +259,18 @@ __ramfunc_load_start = LOADADDR(.ramfunc);
         } > RAM AT > RAM
     __kernel_ram_end = 0x20000000 + 0x40000;
     __kernel_ram_size = __kernel_ram_end - __kernel_ram_start;
+event_type_area : SUBALIGN(4) { _event_type_list_start = .; KEEP(*(SORT_BY_NAME(._event_type.static.*))); _event_type_list_end = .; } > FLASH
+event_listener_area : SUBALIGN(4) { _event_listener_list_start = .; KEEP(*(SORT_BY_NAME(._event_listener.static.*))); _event_listener_list_end = .; } > FLASH
+app_event_manager_postinit_hook_area : SUBALIGN(4) { _app_event_manager_postinit_hook_list_start = .; KEEP(*(SORT_BY_NAME(._app_event_manager_postinit_hook.static.*))); _app_event_manager_postinit_hook_list_end = .; } > FLASH
+event_submit_hook_area : SUBALIGN(4) { _event_submit_hook_list_start = .; KEEP(*(SORT_BY_NAME(._event_submit_hook.static.*))); _event_submit_hook_list_end = .; } > FLASH
+event_preprocess_hook_area : SUBALIGN(4) { _event_preprocess_hook_list_start = .; KEEP(*(SORT_BY_NAME(._event_preprocess_hook.static.*))); _event_preprocess_hook_list_end = .; } > FLASH
+event_postprocess_hook_area : SUBALIGN(4) { _event_postprocess_hook_list_start = .; KEEP(*(SORT_BY_NAME(._event_postprocess_hook.static.*))); _event_postprocess_hook_list_end = .; } > FLASH
+event_subscribers_all : ALIGN_WITH_INPUT
+{
+ __start_event_subscribers_all = .;
+ KEEP(*(SORT(event_subscribers_*)));
+ __stop_event_subscribers_all = .;
+} > FLASH
 /DISCARD/ :
 {
  KEEP(*(.irq_info*))

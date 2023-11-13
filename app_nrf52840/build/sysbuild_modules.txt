@@ -1,1 +1,1 @@
-"nrf":"C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf":"C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/sysbuild"
+"nrf":"C:/ncs/v2.5.0/nrf":"C:/ncs/v2.5.0/nrf/sysbuild"

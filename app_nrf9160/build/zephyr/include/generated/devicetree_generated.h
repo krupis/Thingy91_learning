@@ -12053,6 +12053,7 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl362_0_EXISTS 1
+#define DT_N_ALIAS_adxl362      DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl362_0
 #define DT_N_INST_0_adi_adxl362 DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl362_0
 #define DT_N_NODELABEL_adxl362  DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl362_0
 
@@ -12173,6 +12174,7 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl372_1_EXISTS 1
+#define DT_N_ALIAS_adxl372      DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl372_1
 #define DT_N_INST_0_adi_adxl372 DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl372_1
 #define DT_N_NODELABEL_adxl372  DT_N_S_soc_S_peripheral_40000000_S_spi_b000_S_adxl372_1
 

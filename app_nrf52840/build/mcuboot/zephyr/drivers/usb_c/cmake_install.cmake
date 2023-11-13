@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/drivers/usb_c
+# Install script for directory: C:/ncs/v2.5.0/zephyr/drivers/usb_c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

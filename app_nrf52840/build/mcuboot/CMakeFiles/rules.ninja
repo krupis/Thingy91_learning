@@ -588,10 +588,8 @@ rule C_COMPILER__mbedTLSBase_
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__mbedTLSBase_
-  command = cmd.exe /C "$PRE_LINK && C:\ncs\toolchains\c57af46cb7\opt\bin\cmake.exe -E rm -f $TARGET_FILE && C:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\arm-zephyr-eabi\bin\arm-zephyr-eabi-ar.exe qc $TARGET_FILE $LINK_FLAGS @$RSP_FILE && C:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\arm-zephyr-eabi\bin\arm-zephyr-eabi-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && C:\ncs\toolchains\c57af46cb7\opt\bin\cmake.exe -E rm -f $TARGET_FILE && C:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\arm-zephyr-eabi\bin\arm-zephyr-eabi-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && C:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\arm-zephyr-eabi\bin\arm-zephyr-eabi-ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
-  rspfile = $RSP_FILE
-  rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
   restat = $RESTAT
 
 
@@ -713,7 +711,7 @@ rule C_STATIC_LIBRARY_LINKER__kernel_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ncs\toolchains\c57af46cb7\opt\bin\cmake.exe --regenerate-during-build -SC:\Users\petrikas.lu\Desktop\WORK\NRF\Thingy_91\external\bootloader\mcuboot\boot\zephyr -BC:\Users\petrikas.lu\Desktop\WORK\NRF\Thingy_91\app_nrf52840\build\mcuboot
+  command = C:\ncs\toolchains\c57af46cb7\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v2.5.0\bootloader\mcuboot\boot\zephyr -BC:\ncs\v2.5.0\nrf\applications\connectivity_bridge\build\mcuboot
   description = Re-running CMake...
   generator = 1
 

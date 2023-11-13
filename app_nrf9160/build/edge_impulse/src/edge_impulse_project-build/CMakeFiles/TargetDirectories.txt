@@ -1,0 +1,5 @@
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-build/CMakeFiles/app.dir
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-build/CMakeFiles/edit_cache.dir
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-build/CMakeFiles/rebuild_cache.dir
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-build/edge-impulse-sdk/cmake/zephyr/CMakeFiles/edit_cache.dir
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-build/edge-impulse-sdk/cmake/zephyr/CMakeFiles/rebuild_cache.dir

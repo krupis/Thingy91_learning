@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/drivers/hw_cc310
+# Install script for directory: C:/ncs/v2.5.0/nrf/drivers/hw_cc310
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

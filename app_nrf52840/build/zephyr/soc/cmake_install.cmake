@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/soc
+# Install script for directory: C:/ncs/v2.5.0/zephyr/soc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/zephyr/soc/soc/arm/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/zephyr/soc/soc/arm/cmake_install.cmake")
 endif()
 

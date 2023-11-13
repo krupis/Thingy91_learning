@@ -11,7 +11,7 @@ debug-runner: jlink
 
 # Common runner configuration values.
 config:
-  board_dir: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/boards/arm/thingy91_nrf52840
+  board_dir: C:/ncs/v2.5.0/nrf/boards/arm/thingy91_nrf52840
   # Build outputs:
   elf_file: zephyr.elf
   hex_file: merged.hex

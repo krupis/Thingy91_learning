@@ -105,6 +105,206 @@
     ],
     [
         [
+            "uint32_t sys_rand32_get",
+            "void"
+        ],
+        "rand32.h",
+        true
+    ],
+    [
+        [
+            "void sys_rand_get",
+            "void *dst, size_t len"
+        ],
+        "rand32.h",
+        true
+    ],
+    [
+        [
+            "int sys_csrand_get",
+            "void *dst, size_t len"
+        ],
+        "rand32.h",
+        true
+    ],
+    [
+        [
+            "int entropy_get_entropy",
+            "const struct device *dev,\n\t\t\t\t  uint8_t *buffer,\n\t\t\t\t  uint16_t length"
+        ],
+        "entropy.h",
+        true
+    ],
+    [
+        [
+            "int flash_read",
+            "const struct device *dev, off_t offset, void *data,\n\t\t\t size_t len"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int flash_write",
+            "const struct device *dev, off_t offset,\n\t\t\t  const void *data,\n\t\t\t  size_t len"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int flash_erase",
+            "const struct device *dev, off_t offset, size_t size"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int flash_get_page_info_by_offs",
+            "const struct device *dev,\n\t\t\t\t\t  off_t offset,\n\t\t\t\t\t  struct flash_pages_info *info"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int flash_get_page_info_by_idx",
+            "const struct device *dev,\n\t\t\t\t\t uint32_t page_index,\n\t\t\t\t\t struct flash_pages_info *info"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "size_t flash_get_page_count",
+            "const struct device *dev"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int flash_sfdp_read",
+            "const struct device *dev, off_t offset,\n\t\t\t      void *data, size_t len"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int flash_read_jedec_id",
+            "const struct device *dev, uint8_t *id"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "size_t flash_get_write_block_size",
+            "const struct device *dev"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "const struct flash_parameters *flash_get_parameters",
+            "const struct device *dev"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int flash_ex_op",
+            "const struct device *dev, uint16_t code,\n\t\t\t  const uintptr_t in, void *out"
+        ],
+        "flash.h",
+        true
+    ],
+    [
+        [
+            "int gpio_pin_interrupt_configure",
+            "const struct device *port,\n\t\t\t\t\t   gpio_pin_t pin,\n\t\t\t\t\t   gpio_flags_t flags"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_pin_configure",
+            "const struct device *port,\n\t\t\t\t gpio_pin_t pin,\n\t\t\t\t gpio_flags_t flags"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_port_get_direction",
+            "const struct device *port, gpio_port_pins_t map,\n\t\t\t\t      gpio_port_pins_t *inputs, gpio_port_pins_t *outputs"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_pin_get_config",
+            "const struct device *port, gpio_pin_t pin,\n\t\t\t\t  gpio_flags_t *flags"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_port_get_raw",
+            "const struct device *port,\n\t\t\t\tgpio_port_value_t *value"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_port_set_masked_raw",
+            "const struct device *port,\n\t\t\t\t       gpio_port_pins_t mask,\n\t\t\t\t       gpio_port_value_t value"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_port_set_bits_raw",
+            "const struct device *port,\n\t\t\t\t     gpio_port_pins_t pins"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_port_clear_bits_raw",
+            "const struct device *port,\n\t\t\t\t       gpio_port_pins_t pins"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_port_toggle_bits",
+            "const struct device *port,\n\t\t\t\t    gpio_port_pins_t pins"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
+            "int gpio_get_pending_int",
+            "const struct device *dev"
+        ],
+        "gpio.h",
+        true
+    ],
+    [
+        [
             "ssize_t hwinfo_get_device_id",
             "uint8_t *buffer, size_t length"
         ],
@@ -1769,14 +1969,6 @@
     ],
     [
         [
-            "int entropy_get_entropy",
-            "const struct device *dev,\n\t\t\t\t  uint8_t *buffer,\n\t\t\t\t  uint16_t length"
-        ],
-        "entropy.h",
-        false
-    ],
-    [
-        [
             "int espi_config",
             "const struct device *dev, struct espi_cfg *cfg"
         ],
@@ -1937,94 +2129,6 @@
     ],
     [
         [
-            "int flash_read",
-            "const struct device *dev, off_t offset, void *data,\n\t\t\t size_t len"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "int flash_write",
-            "const struct device *dev, off_t offset,\n\t\t\t  const void *data,\n\t\t\t  size_t len"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "int flash_erase",
-            "const struct device *dev, off_t offset, size_t size"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "int flash_get_page_info_by_offs",
-            "const struct device *dev,\n\t\t\t\t\t  off_t offset,\n\t\t\t\t\t  struct flash_pages_info *info"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "int flash_get_page_info_by_idx",
-            "const struct device *dev,\n\t\t\t\t\t uint32_t page_index,\n\t\t\t\t\t struct flash_pages_info *info"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "size_t flash_get_page_count",
-            "const struct device *dev"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "int flash_sfdp_read",
-            "const struct device *dev, off_t offset,\n\t\t\t      void *data, size_t len"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "int flash_read_jedec_id",
-            "const struct device *dev, uint8_t *id"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "size_t flash_get_write_block_size",
-            "const struct device *dev"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "const struct flash_parameters *flash_get_parameters",
-            "const struct device *dev"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
-            "int flash_ex_op",
-            "const struct device *dev, uint16_t code,\n\t\t\t  const uintptr_t in, void *out"
-        ],
-        "flash.h",
-        false
-    ],
-    [
-        [
             "int fuel_gauge_get_prop",
             "const struct device *dev, struct fuel_gauge_get_property *props,\n\t\t\t\t  size_t props_len"
         ],
@@ -2053,86 +2157,6 @@
             "const struct device *dev"
         ],
         "fuel_gauge.h",
-        false
-    ],
-    [
-        [
-            "int gpio_pin_interrupt_configure",
-            "const struct device *port,\n\t\t\t\t\t   gpio_pin_t pin,\n\t\t\t\t\t   gpio_flags_t flags"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_pin_configure",
-            "const struct device *port,\n\t\t\t\t gpio_pin_t pin,\n\t\t\t\t gpio_flags_t flags"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_port_get_direction",
-            "const struct device *port, gpio_port_pins_t map,\n\t\t\t\t      gpio_port_pins_t *inputs, gpio_port_pins_t *outputs"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_pin_get_config",
-            "const struct device *port, gpio_pin_t pin,\n\t\t\t\t  gpio_flags_t *flags"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_port_get_raw",
-            "const struct device *port,\n\t\t\t\tgpio_port_value_t *value"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_port_set_masked_raw",
-            "const struct device *port,\n\t\t\t\t       gpio_port_pins_t mask,\n\t\t\t\t       gpio_port_value_t value"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_port_set_bits_raw",
-            "const struct device *port,\n\t\t\t\t     gpio_port_pins_t pins"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_port_clear_bits_raw",
-            "const struct device *port,\n\t\t\t\t       gpio_port_pins_t pins"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_port_toggle_bits",
-            "const struct device *port,\n\t\t\t\t    gpio_port_pins_t pins"
-        ],
-        "gpio.h",
-        false
-    ],
-    [
-        [
-            "int gpio_get_pending_int",
-            "const struct device *dev"
-        ],
-        "gpio.h",
         false
     ],
     [
@@ -3709,30 +3733,6 @@
             "int nfds, zsock_fd_set *readfds,\n\t\t\t   zsock_fd_set *writefds,\n\t\t\t   zsock_fd_set *exceptfds,\n\t\t\t   struct zsock_timeval *timeout"
         ],
         "socket_select.h",
-        false
-    ],
-    [
-        [
-            "uint32_t sys_rand32_get",
-            "void"
-        ],
-        "rand32.h",
-        false
-    ],
-    [
-        [
-            "void sys_rand_get",
-            "void *dst, size_t len"
-        ],
-        "rand32.h",
-        false
-    ],
-    [
-        [
-            "int sys_csrand_get",
-            "void *dst, size_t len"
-        ],
-        "rand32.h",
         false
     ],
     [

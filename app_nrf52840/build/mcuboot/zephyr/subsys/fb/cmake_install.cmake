@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/subsys/fb
+# Install script for directory: C:/ncs/v2.5.0/zephyr/subsys/fb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

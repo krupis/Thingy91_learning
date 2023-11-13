@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/ext
+# Install script for directory: C:/ncs/v2.5.0/nrf/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

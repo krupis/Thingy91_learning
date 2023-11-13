@@ -1,1 +1,1 @@
-osource "C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/v2.5.0/nrf/boards/shields/*/Kconfig.shield"

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/nrf/lib/fprotect
+# Install script for directory: C:/ncs/v2.5.0/nrf/lib/fprotect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

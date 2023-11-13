@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/soc/arm/nordic_nrf
+# Install script for directory: C:/ncs/v2.5.0/zephyr/soc/arm/nordic_nrf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/soc/soc/arm/nordic_nrf/nrf52/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/soc/soc/arm/nordic_nrf/common/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/soc/soc/arm/nordic_nrf/nrf52/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/soc/soc/arm/nordic_nrf/common/cmake_install.cmake")
 
 endif()
 

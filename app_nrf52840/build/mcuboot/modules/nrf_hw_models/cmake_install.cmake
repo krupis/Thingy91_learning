@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/modules/bsim_hw_models/nrf_hw_models
+# Install script for directory: C:/ncs/v2.5.0/modules/bsim_hw_models/nrf_hw_models
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

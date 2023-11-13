@@ -8,6 +8,8 @@ set_target_properties(devicetree_target PROPERTIES "DT_CHOSEN|zephyr,uart-mcumgr
 set_target_properties(devicetree_target PROPERTIES "DT_CHOSEN|zephyr,flash" "/soc/peripheral@40000000/flash-controller@39000/flash@0")
 set_target_properties(devicetree_target PROPERTIES "DT_CHOSEN|zephyr,sram" "/reserved-memory/image_ns@20020000")
 set_target_properties(devicetree_target PROPERTIES "DT_CHOSEN|zephyr,code-partition" "/soc/peripheral@40000000/flash-controller@39000/flash@0/partitions/partition@40000")
+set_target_properties(devicetree_target PROPERTIES "DT_ALIAS|adxl362" "/soc/peripheral@40000000/spi@b000/adxl362@0")
+set_target_properties(devicetree_target PROPERTIES "DT_ALIAS|adxl372" "/soc/peripheral@40000000/spi@b000/adxl372@1")
 set_target_properties(devicetree_target PROPERTIES "DT_ALIAS|rgb-pwm" "/soc/peripheral@40000000/pwm@21000")
 set_target_properties(devicetree_target PROPERTIES "DT_ALIAS|nmos-pwm" "/soc/peripheral@40000000/pwm@23000")
 set_target_properties(devicetree_target PROPERTIES "DT_ALIAS|sw0" "/buttons/button_0")

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/drivers/interrupt_controller
+# Install script for directory: C:/ncs/v2.5.0/zephyr/drivers/interrupt_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

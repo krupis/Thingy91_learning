@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/zephyr/drivers
+# Install script for directory: C:/ncs/v2.5.0/zephyr/drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,19 +39,19 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/disk/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/interrupt_controller/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/misc/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/pcie/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/usb/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/usb_c/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/clock_control/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/flash/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/gpio/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/hwinfo/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/pinctrl/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/serial/cmake_install.cmake")
-  include("C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf52840/build/mcuboot/zephyr/drivers/timer/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/disk/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/misc/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/pcie/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/usb/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/usb_c/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/clock_control/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/flash/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/gpio/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/hwinfo/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/pinctrl/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/serial/cmake_install.cmake")
+  include("C:/ncs/v2.5.0/nrf/applications/connectivity_bridge/build/mcuboot/zephyr/drivers/timer/cmake_install.cmake")
 
 endif()
 

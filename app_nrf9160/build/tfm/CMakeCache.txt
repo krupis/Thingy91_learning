@@ -54,7 +54,7 @@ CMAKE_ASM_COMPILER_AR:FILEPATH=C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-z
 CMAKE_ASM_COMPILER_RANLIB:FILEPATH=C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
 
 //Flags used by the ASM compiler during all build types.
-CMAKE_ASM_FLAGS:STRING=-mcpu=cortex-m33+nodsp+nofp
+CMAKE_ASM_FLAGS:STRING=-mcpu=cortex-m33+nodsp
 
 //Flags used by the ASM compiler during DEBUG builds.
 CMAKE_ASM_FLAGS_DEBUG:STRING=-g
@@ -83,7 +83,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-z
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-mcpu=cortex-m33+nodsp+nofp
+CMAKE_CXX_FLAGS:STRING=-mcpu=cortex-m33+nodsp
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -109,7 +109,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zep
 CMAKE_C_COMPILER_RANLIB:FILEPATH=C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=-mcpu=cortex-m33+nodsp+nofp
+CMAKE_C_FLAGS:STRING=-mcpu=cortex-m33+nodsp
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -300,10 +300,10 @@ CONFIG_TFM_BUILD_LOG_QUIET:BOOL=ON
 // whereas CONFIG_TFM_FLOAT_ABI=hard along with  CONFIG_TFM_ENABLE_FP,
 // CONFIG_TFM_ENABLE_MVE or CONFIG_TFM_ENABLE_MVE_FP compiles the
 // code with hardware FP or MVE instructions and ABI.
-CONFIG_TFM_ENABLE_CP10CP11:BOOL=OFF
+CONFIG_TFM_ENABLE_CP10CP11:BOOL=ON
 
 //Enable/disable FP usage
-CONFIG_TFM_ENABLE_FP:BOOL=OFF
+CONFIG_TFM_ENABLE_FP:BOOL=ON
 
 //Enable/disable integer MVE usage
 CONFIG_TFM_ENABLE_MVE:BOOL=OFF
@@ -311,11 +311,14 @@ CONFIG_TFM_ENABLE_MVE:BOOL=OFF
 //Enable/disable floating-point MVE usage
 CONFIG_TFM_ENABLE_MVE_FP:BOOL=OFF
 
+//No help, variable specified on the command line.
+CONFIG_TFM_FP_ARCH:UNINITIALIZED=fpv5-sp-d16
+
 //On fatal errors in the secure firmware, halt instead of rebooting.
 CONFIG_TFM_HALT_ON_CORE_PANIC:BOOL=
 
 //Enable/disable lazy stacking
-CONFIG_TFM_LAZY_STACKING:BOOL=OFF
+CONFIG_TFM_LAZY_STACKING:BOOL=ON
 
 //Allow TF-M and the non-secure application to share the UART instance.
 // TF-M will use it while it is booting, after which the non-secure

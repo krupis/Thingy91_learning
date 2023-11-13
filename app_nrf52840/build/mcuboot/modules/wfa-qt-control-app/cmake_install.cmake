@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/external/modules/lib/wfa-qt-control-app/zephyr
+# Install script for directory: C:/ncs/v2.5.0/modules/lib/wfa-qt-control-app/zephyr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

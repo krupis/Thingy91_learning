@@ -1,0 +1,13 @@
+# Target labels
+ edge_impulse_project
+# Source files and their labels
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project-complete.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-build.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-configure.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-download.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-install.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-mkdir.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-patch.rule
+C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/edge_impulse/src/edge_impulse_project-stamp/edge_impulse_project-update.rule
