@@ -13,8 +13,6 @@
 
 #define SPI3_NODE DT_NODELABEL(spi3)
 
-//#include <zephyr/sensor/adxl362.h>
-//#include <zephyr/drivers/adxl362.h>
 
 
 
