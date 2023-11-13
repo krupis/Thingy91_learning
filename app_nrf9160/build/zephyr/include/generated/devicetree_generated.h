@@ -11849,6 +11849,7 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_peripheral_40000000_S_spi_b000_EXISTS 1
+#define DT_N_ALIAS_spi3             DT_N_S_soc_S_peripheral_40000000_S_spi_b000
 #define DT_N_INST_0_nordic_nrf_spim DT_N_S_soc_S_peripheral_40000000_S_spi_b000
 #define DT_N_NODELABEL_spi3         DT_N_S_soc_S_peripheral_40000000_S_spi_b000
 

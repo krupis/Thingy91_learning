@@ -14,3 +14,6 @@ target_include_directories(app PRIVATE components/accelerometer)
 
 target_sources(app PRIVATE components/machine_learning/machine_learning.c)
 target_include_directories(app PRIVATE components/machine_learning)
+
+target_sources(app PRIVATE components/accelerometer_low/accelerometer_low.c)
+target_include_directories(app PRIVATE components/accelerometer_low)

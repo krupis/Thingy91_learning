@@ -1,5 +1,6 @@
 / {
     aliases {
+            spi3    = &spi3;
             adxl372 = &adxl372;
             adxl362 = &adxl362;
     };

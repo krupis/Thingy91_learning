@@ -7,26 +7,39 @@
 #include <ei_wrapper.h>
 
 
-static size_t frame_surplus;
-static void result_ready_cb(int err);
-
-
+#include "accelerometer_low.h"
 
 int main(void)
 {
-	int ret;
-	ret = Initialize_machine_learning();
+	static const struct spi_dt_spec spi_dev = SPI_DT_SPEC_GET(SPI3_NODE, SPI_OP_MODE_MASTER, 0);
 
-	ret =  Initialize_accelerometers();
-	if(ret == 0){
-		printk("Accelerometers not initialized\n");
-	}
-	else{
-		printk("Accelerometers initialized sucesfully\n");
-	}
 
-	ret = print_adxl362_data();
-	size_t cnt = 0;
+
+
+
+
+
+
+	// int ret;
+	// ret = Initialize_machine_learning();
+
+	// ret =  Initialize_accelerometers();
+	// if(ret == 0){
+	// 	printk("Accelerometers not initialized\n");
+	// }
+	// else{
+	// 	printk("Accelerometers initialized sucesfully\n");
+	// }
+
+	// ret = print_adxl362_data();
+	// size_t cnt = 0;
+	// return 0;
+
+
+
+
+
+
 	return 0;
 }
 
