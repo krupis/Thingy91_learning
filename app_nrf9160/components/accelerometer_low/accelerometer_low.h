@@ -11,12 +11,25 @@
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/device.h>
 
-#define SPI3_NODE DT_NODELABEL(spi3)
-
-//#include <zephyr/sensor/adxl362.h>
-//#include <zephyr/drivers/adxl362.h>
 
 
+//COMMAND REGISTERS
+#define ADXL362_READ_REG        0x0B
+#define ADXL362_WRITE_REG       0x0A
+#define ADXL362_READ_FIFO       0x0D
+
+
+//REGISTER SUMMARY
+#define ADXL362_REG_DEVID_AD    0x00
+#define ADXL362_REG_DEVID_MST   0x01
+#define ADXL362_REG_PARTID      0x02
+
+
+
+
+int adxl362_bus_check_spi();
+int adxl362_reg_read_spi(uint8_t start, uint8_t *buf, int size);
+int adxl362_reg_write_spi(uint8_t reg, uint8_t val);
 
 
 
