@@ -14,8 +14,8 @@
 
 
 //COMMAND REGISTERS
-#define ADXL362_READ_REG        0x0B
-#define ADXL362_WRITE_REG       0x0A
+#define ADXL362_READ_REG        0x0B // 0x0B = 11   0000 1011
+#define ADXL362_WRITE_REG       0x0A // 0x0A = 10   0000 1010
 #define ADXL362_READ_FIFO       0x0D
 
 
@@ -28,8 +28,11 @@
 
 
 int adxl362_bus_check_spi();
-int adxl362_reg_read_spi(uint8_t start, uint8_t *buf, int size);
+int adxl362_reg_read_spi(uint8_t address, uint8_t *buf, int size);
 int adxl362_reg_write_spi(uint8_t reg, uint8_t val);
+
+
+int adxl362_write_test();
 
 
 

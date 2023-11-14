@@ -79,10 +79,6 @@ C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/lib
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/posix/CMakeFiles/lib__posix.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/posix/CMakeFiles/edit_cache.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/posix/CMakeFiles/rebuild_cache.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/cpp/CMakeFiles/edit_cache.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/cpp/CMakeFiles/rebuild_cache.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/cpp/abi/CMakeFiles/edit_cache.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/cpp/abi/CMakeFiles/rebuild_cache.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/hash/CMakeFiles/edit_cache.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/hash/CMakeFiles/rebuild_cache.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/zephyr/lib/os/CMakeFiles/edit_cache.dir
@@ -225,11 +221,6 @@ C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/li
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/fatal_error/CMakeFiles/..__nrf__lib__fatal_error.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/fatal_error/CMakeFiles/edit_cache.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/fatal_error/CMakeFiles/rebuild_cache.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/ei_wrapper.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/edge_impulse_project_download.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/edit_cache.dir
-C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/edge_impulse/CMakeFiles/rebuild_cache.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/modem_antenna/CMakeFiles/edit_cache.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/modem_antenna/CMakeFiles/..__nrf__lib__modem_antenna.dir
 C:/Users/petrikas.lu/Desktop/WORK/NRF/Thingy_91/app_nrf9160/build/modules/nrf/lib/modem_antenna/CMakeFiles/rebuild_cache.dir
