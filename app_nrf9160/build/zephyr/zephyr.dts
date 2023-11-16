@@ -30,7 +30,6 @@
 		nmos-pwm = &pwm2;
 		mcuboot-button0 = &button0;
 		mcuboot-led0 = &blue_led;
-		spi3 = &spi3;
 		adxl372 = &adxl372;
 		adxl362 = &adxl362;
 	};

@@ -1047,9 +1047,9 @@ timer2: timer@11000 {
 };
 # 0 "<command-line>" 2
 # 1 "./boards/thingy91_nrf9160_ns.overlay" 1
+
 / {
     aliases {
-            spi3 = &spi3;
             adxl372 = &adxl372;
             adxl362 = &adxl362;
     };

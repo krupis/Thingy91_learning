@@ -27,12 +27,7 @@
 
 
 
-int adxl362_bus_check_spi();
-int adxl362_reg_read_spi(uint8_t address, uint8_t *buf, int size);
-int adxl362_reg_write_spi(uint8_t reg, uint8_t val);
 
-
-int adxl362_write_test();
 
 
 
