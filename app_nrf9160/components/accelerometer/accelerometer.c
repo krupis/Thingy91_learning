@@ -1,6 +1,5 @@
 #include "accelerometer.h"
 
-
 static const enum sensor_channel channels[] = {
 	SENSOR_CHAN_ACCEL_X,
 	SENSOR_CHAN_ACCEL_Y,
@@ -18,8 +17,9 @@ BUILD_ASSERT(DT_NODE_HAS_STATUS(DEFAULT_ADXL362_NODE, okay),
 const struct device *const adxl1372_dev = DEVICE_DT_GET(DEFAULT_ADXL372_NODE);
 const struct device *const adxl1362_dev = DEVICE_DT_GET(DEFAULT_ADXL362_NODE);
 
-int Initialize_accelerometers(){
-    int ret;
+int Initialize_accelerometers()
+{
+	int ret;
 	if (!device_is_ready(adxl1372_dev))
 	{
 		printk("sensor: device %s not ready.\n", adxl1372_dev->name);
@@ -40,11 +40,6 @@ int Initialize_accelerometers(){
 		printk("sensor: device %s ready.\n", adxl1362_dev->name);
 	}
 }
-
-
-
-
-
 
 int print_adxl362_data()
 {
@@ -72,9 +67,3 @@ int print_adxl362_data()
 
 	return 0;
 }
-
-
-
-
-
-
