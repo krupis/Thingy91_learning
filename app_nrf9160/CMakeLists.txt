@@ -8,12 +8,3 @@ project(hello_world)
 FILE(GLOB app_sources src/*.c)
 target_sources(app PRIVATE ${app_sources})
 
-
-target_sources(app PRIVATE components/accelerometer/accelerometer.c)
-target_include_directories(app PRIVATE components/accelerometer)
-
-target_sources(app PRIVATE components/machine_learning/machine_learning.c)
-target_include_directories(app PRIVATE components/machine_learning)
-
-target_sources(app PRIVATE components/accelerometer_low/accelerometer_low.c)
-target_include_directories(app PRIVATE components/accelerometer_low)
